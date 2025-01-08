@@ -3,6 +3,7 @@ import getRoutes from './routes/get.js'
 
 
 const app = express()
+app.use(express.json());
 
 app.use('/', getRoutes)
 
