@@ -7,7 +7,7 @@ const db = mysql2.createConnection({
     host: process.env.MYSQLHOST,      // Endereço do banco de dados
     user: process.env.MYSQLUSER,           // Usuário do banco de dados
     password: process.env.MYSQLPASS,           // Senha do banco de dados
-    database: 'miniloja'     // Nome do banco de dados
+    database: 'empresa'     // Nome do banco de dados
 });
 
 
