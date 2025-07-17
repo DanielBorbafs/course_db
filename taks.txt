@@ -1,0 +1,59 @@
+📚 Liste os cursos que têm menos de 5 alunos matriculados.
+
+⭐ Liste os cursos com média de avaliação maior ou igual a 4.
+
+🔎 Mostre os alunos que nunca avaliaram nenhum curso.
+
+🧠 Mostre os professores que criaram mais de 3 cursos.
+
+🧾 Liste o total de posts criados por cada usuário, ordenado do maior para o menor.
+
+🔎 Liste todos os usuários que seguiram mais de 5 outros usuários.
+
+📘 Mostre todos os posts publicados por professores.
+
+👥 Liste os 5 usuários com mais seguidores.
+
+📊 Para cada curso, mostre a média de avaliação.
+
+⏳ Mostre o tempo total (em minutos) de cada curso somando as aulas.
+
+📚 Liste os cursos que têm menos de 3 alunos matriculados.
+
+⭐ Liste os cursos com média de avaliação maior ou igual a 4.
+
+🔎 Mostre os alunos que nunca avaliaram nenhum curso.
+
+🧠 Mostre os professores que criaram mais de 3 cursos.
+
+🧾 Liste o total de posts criados por cada usuário, ordenado do maior para o menor.
+
+📚 Liste os cursos que têm menos de 3 alunos matriculados.
+
+⭐ Liste os cursos com média de avaliação maior ou igual a 4.
+
+🔎 Mostre os alunos que nunca avaliaram nenhum curso.
+
+🧠 Mostre os professores que criaram mais de 3 cursos.
+
+🧾 Liste o total de posts criados por cada usuário, ordenado do maior para o menor.
+
+🔎 Liste todos os usuários que seguiram mais de 5 outros usuários.
+
+📘 Mostre todos os posts publicados por professores.
+
+👥 Liste os 5 usuários com mais seguidores.
+
+📊 Para cada curso, mostre a média de avaliação.
+
+⏳ Mostre o tempo total (em minutos) de cada curso somando as aulas.
+
+📚 Liste os cursos que têm menos de 3 alunos matriculados.
+
+⭐ Liste os cursos com média de avaliação maior ou igual a 4.
+
+🔎 Mostre os alunos que nunca avaliaram nenhum curso.
+
+🧠 Mostre os professores que criaram mais de 3 cursos.
+
+🧾 Liste o total de posts criados por cada usuário, ordenado do maior para o menor.
