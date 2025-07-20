@@ -32,3 +32,26 @@ WHERE U.role = 'professor'
 GROUP BY U.USERNAME
 HAVING COUNT(C.id_professor) > 3
 
+-- Liste o total de posts criados por cada usuário, ordenado do maior para o menor.
+SELECT U.USERNAME, COUNT(P.ID) AS [QUANTIDADE POSTS]
+FROM users U
+INNER JOIN POSTS P
+ON U.ID = P.user_id
+GROUP BY U.USERNAME
+ORDER BY [QUANTIDADE POSTS] DESC
+GO
+
+-- Liste todos os usuários que seguiram mais de 2 outros usuários.
+SELECT 
+    U.username,
+    COUNT(F.followed_user_id) AS qtd_seguidos
+FROM 
+    users U
+JOIN 
+    follows F ON U.id = F.following_user_id
+GROUP BY 
+    U.username
+HAVING 
+    COUNT(F.followed_user_id) > 1
+ORDER BY 
+    qtd_seguidos DESC;
