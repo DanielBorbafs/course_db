@@ -55,3 +55,29 @@ HAVING
     COUNT(F.followed_user_id) > 1
 ORDER BY 
     qtd_seguidos DESC;
+
+
+-- Mostre todos os posts publicados por professores.
+ SELECT P.TITLE, P.BODY, P.STATUS, U.USERNAME
+ FROM POSTS P
+ JOIN USERS U 
+ ON P.user_id = U.id
+ WHERE U.role = 'PROFESSOR'
+ GO
+
+ -- Para cada curso, mostre a média de avaliação.
+SELECT C.TITULO, AVG(A.NOTA) AS [MEDIA DE NOTA]
+FROM CURSOS C 
+JOIN avaliacoes A
+ON C.id = A.id_curso
+GROUP BY C.TITULO
+ORDER BY [MEDIA DE NOTA] DESC
+
+
+-- Mostre o tempo total (em minutos) de cada curso somando as aulas.
+SELECT C.TITULO, SUM(A.DURACAO_MINUTOS) [DURACAO CURSO]
+FROM CURSOS C
+JOIN AULAS A 
+ON C.id = A.id_curso
+GROUP BY C.TITULO
+ORDER BY [DURACAO CURSO] DESC
