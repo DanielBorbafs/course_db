@@ -1,5 +1,4 @@
-from vendedores import Vendedor
+from produtos import Produto
 
-vendedores = Vendedor.gera_vendedores(5)
-
-Vendedor.salva_em_csv(vendedores)
+produtos_gerados = Produto.gera_produtos(10)
+Produto.exportar_csv(produtos_gerados, "produtos.csv")
