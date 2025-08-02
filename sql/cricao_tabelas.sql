@@ -28,6 +28,8 @@ create table vendedores (
    data_entrada  date
 );
 
+alter table vendedores drop column tipo_loja
+
 create table produtos (
    id            int primary key,
    nome_produto  varchar2(30),
