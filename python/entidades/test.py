@@ -1,6 +1,6 @@
 from clientes import Cliente
 
 
-clientes = Cliente.gera_clientes(100)
-for c in clientes:
-    print(vars(c))
+clientes = Cliente.gera_clientes(10)
+
+Cliente.salva_em_csv(clientes)

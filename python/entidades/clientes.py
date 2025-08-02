@@ -1,3 +1,4 @@
+import csv
 from faker import Faker
 import random 
 from datetime import date
@@ -21,7 +22,7 @@ class Cliente:
         for i in range(1, n+1):
             sexo = random.choice(['M', 'F'])
             nome = fake.first_name_male() if sexo == 'M' else fake.first_name_female()
-            sobrenome = fake.last_name()
+            #sobrenome = fake.last_name()
             email = fake.email()
             data_nascimento = fake.date_of_birth(minimum_age=0, maximum_age=75)
             uf = fake.estado_sigla()
@@ -29,7 +30,7 @@ class Cliente:
 
             cliente = Cliente(
                 id=i,
-                nome=f"{nome} {sobrenome}",
+                nome=nome,
                 email=email,
                 data_nascimento=data_nascimento,
                 sexo=sexo,
@@ -38,5 +39,24 @@ class Cliente:
             )
             clientes.append(cliente)
         return clientes
+    @staticmethod
+    def salva_em_csv(clientes,nome_arquivo = 'clientes.csv'):
+        with open (nome_arquivo, mode='w', newline='', encoding='utf-8') as arquivo:
+            writer = csv.writer(arquivo)
+            
+            # Cabecalho
+            for cliente in clientes:
+                writer.writerow([
+                    cliente.id,
+                    cliente.nome,
+                    cliente.email,
+                    cliente.data_nascimento.strftime('%d/%m/%Y'),
+                    cliente.sexo,
+                    cliente.uf,
+                    cliente.data_cadastro.strftime('%d/%m/%Y')
+                ])
+
+
+
     
 
