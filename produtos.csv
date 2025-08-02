@@ -1,11 +1,101 @@
 ID,NOME_PRODUTO,CATEGORIA,MARCA,PRECO,CUSTO,ESTOQUE_ATUAL
-1,HP Quasi,PC Gamer,HP,1565.72,1179.95,69
-2,Nintendo At,Jogos,Nintendo,4002.92,3056.78,17
-3,Corsair Non,Teclados Mecânicos,Corsair,2237.51,1139.52,23
-4,Multilaser Dicta,Acessórios,Multilaser,3833.53,3418.58,65
-5,Ubisoft Sapiente,Jogos,Ubisoft,719.16,418.21,72
-6,Logitech Et,Teclados Mecânicos,Logitech,4171.64,3276.08,0
-7,ThunderX3 Assumenda,Cadeiras Gamer,ThunderX3,2731.16,1855.08,81
-8,Alpha Gamer Commodi,Cadeiras Gamer,Alpha Gamer,3200.33,2486.91,17
-9,PlayStation Neque,Gift Cards,PlayStation,389.96,263.14,88
-10,Razer Temporibus,Headsets,Razer,3008.71,2402.66,91
+1,Logitech Delectus,Headsets,Logitech,4877.83,3297.93,68
+2,ThunderX3 Recusandae,Cadeiras Gamer,ThunderX3,3477.21,2042.07,78
+3,Ubisoft Doloribus,Jogos,Ubisoft,3599.45,3146.12,60
+4,Mymax Sint,Cadeiras Gamer,Mymax,4571.81,2764.66,49
+5,HP Suscipit,PC Gamer,HP,1919.9,1182.0,74
+6,HyperX Deleniti,Headsets,HyperX,679.24,521.74,44
+7,Microsoft Nesciunt,Controles,Microsoft,1564.81,1197.15,88
+8,Corsair Sed,Headsets,Corsair,3697.65,2565.91,64
+9,Dell Quo,PC Gamer,Dell,2596.97,1983.38,96
+10,Razer Officiis,Headsets,Razer,2095.53,1320.79,37
+11,Asus Quae,PC Gamer,Asus,2941.39,1499.77,31
+12,Sony Maxime,Consoles,Sony,2182.32,1664.94,36
+13,Sony Ad,Controles,Sony,4443.1,2798.59,54
+14,ThunderX3 Velit,Cadeiras Gamer,ThunderX3,1482.12,795.08,27
+15,Husky Nobis,Cadeiras Gamer,Husky,2959.61,2557.76,51
+16,Logitech Eius,Acessórios,Logitech,349.25,178.81,1
+17,LG Quia,Monitores Gamer,LG,1762.42,1241.82,81
+18,PlayStation Laboriosam,Gift Cards,PlayStation,4655.49,3587.31,30
+19,ThunderX3 In,Cadeiras Gamer,ThunderX3,3344.54,2742.54,64
+20,Dell Enim,PC Gamer,Dell,1440.67,1043.55,83
+21,Microsoft Culpa,Consoles,Microsoft,2281.27,1689.72,50
+22,Sony At,Controles,Sony,731.81,417.35,56
+23,Philips Sapiente,Monitores Gamer,Philips,1474.19,819.31,48
+24,Multilaser Harum,Acessórios,Multilaser,1391.47,1193.21,97
+25,EA Eius,Jogos,EA,4593.73,3630.97,4
+26,Razer Occaecati,Headsets,Razer,2420.65,1740.89,53
+27,Microsoft Necessitatibus,Consoles,Microsoft,1217.95,681.04,90
+28,Razer Rerum,Teclados Mecânicos,Razer,3629.3,3173.0,38
+29,Philips Minima,Monitores Gamer,Philips,4368.24,2688.01,83
+30,BenQ Reprehenderit,Monitores Gamer,BenQ,1666.57,1156.65,76
+31,Microsoft Occaecati,Jogos,Microsoft,238.18,169.57,10
+32,Husky Exercitationem,Cadeiras Gamer,Husky,1508.92,774.88,73
+33,Logitech Sint,Headsets,Logitech,3366.71,2161.96,55
+34,LG Asperiores,Monitores Gamer,LG,1142.48,879.16,54
+35,HP Tenetur,PC Gamer,HP,1321.98,887.95,82
+36,Sony Voluptas,Controles,Sony,3208.44,2099.62,12
+37,LG In,Monitores Gamer,LG,2076.35,1712.47,93
+38,Corsair Pariatur,Headsets,Corsair,1921.33,1088.94,18
+39,Nintendo Necessitatibus,Consoles,Nintendo,4406.29,3035.99,46
+40,Redragon Quasi,Acessórios,Redragon,1684.28,1215.4,66
+41,Sony Cum,Consoles,Sony,1114.95,640.78,10
+42,Sony Quisquam,Consoles,Sony,4971.51,4202.4,43
+43,Mymax Officia,Cadeiras Gamer,Mymax,3041.35,1882.78,82
+44,8BitDo Laudantium,Controles,8BitDo,2342.71,1833.65,14
+45,Nintendo Minima,Consoles,Nintendo,4852.4,2464.39,7
+46,Mymax Commodi,Cadeiras Gamer,Mymax,3887.21,2386.33,86
+47,Razer Doloremque,Teclados Mecânicos,Razer,4408.44,2866.82,63
+48,8BitDo Ab,Controles,8BitDo,517.89,296.37,18
+49,Razer Facilis,Acessórios,Razer,3959.45,2777.65,52
+50,Nintendo Accusantium,Consoles,Nintendo,2535.1,1336.35,10
+51,Nintendo Aut,Consoles,Nintendo,3533.81,1837.8,57
+52,Redragon Qui,Acessórios,Redragon,2483.89,1547.04,33
+53,Razer Tempora,Teclados Mecânicos,Razer,3986.91,2565.63,98
+54,HyperX Officiis,Headsets,HyperX,2074.69,1438.62,72
+55,PlayStation Reiciendis,Gift Cards,PlayStation,1618.4,1304.73,79
+56,Sony Corporis,Jogos,Sony,4391.37,2402.49,52
+57,Xbox Vero,Gift Cards,Xbox,3173.82,1953.9,86
+58,Sony Non,Consoles,Sony,3021.13,2119.26,82
+59,Steam Atque,Gift Cards,Steam,4453.67,2719.36,97
+60,Philips Optio,Monitores Gamer,Philips,4702.49,2624.69,37
+61,Xbox Sunt,Gift Cards,Xbox,1204.27,857.19,53
+62,Multilaser Inventore,Acessórios,Multilaser,2518.43,2109.68,43
+63,Redragon Fuga,Teclados Mecânicos,Redragon,4694.88,3459.72,30
+64,ThunderX3 Optio,Cadeiras Gamer,ThunderX3,1155.25,894.97,86
+65,Acer Molestias,PC Gamer,Acer,686.11,597.99,49
+66,Sony Reiciendis,Consoles,Sony,4328.81,3266.51,87
+67,Microsoft Inventore,Consoles,Microsoft,3468.95,2803.69,44
+68,Sony Facilis,Consoles,Sony,2648.7,1901.53,91
+69,Alpha Gamer Voluptate,Cadeiras Gamer,Alpha Gamer,2422.97,1804.95,11
+70,Microsoft Pariatur,Consoles,Microsoft,1379.55,813.31,66
+71,8BitDo Cum,Controles,8BitDo,1457.58,825.99,94
+72,Redragon Tenetur,Teclados Mecânicos,Redragon,2860.45,2438.17,73
+73,Microsoft Reprehenderit,Consoles,Microsoft,1738.06,1001.14,23
+74,Microsoft Dolor,Controles,Microsoft,2980.27,2405.99,53
+75,Logitech Accusamus,Acessórios,Logitech,422.06,368.34,61
+76,Logitech Aperiam,Teclados Mecânicos,Logitech,4647.66,3584.28,66
+77,Sony Suscipit,Consoles,Sony,1831.35,1647.15,22
+78,Acer Quo,PC Gamer,Acer,2644.52,2329.41,36
+79,Sony Officia,Consoles,Sony,2488.47,1844.01,57
+80,DXRacer Debitis,Cadeiras Gamer,DXRacer,3276.13,2426.51,23
+81,BenQ Magni,Monitores Gamer,BenQ,4263.21,3725.97,93
+82,Ubisoft Commodi,Jogos,Ubisoft,3633.49,1951.0,53
+83,LG Ipsam,Monitores Gamer,LG,2300.34,1852.35,71
+84,Sony Officiis,Jogos,Sony,3228.41,1624.59,55
+85,DXRacer Amet,Cadeiras Gamer,DXRacer,4005.55,2609.91,70
+86,Steam Debitis,Gift Cards,Steam,4834.7,3863.09,27
+87,Mymax Suscipit,Cadeiras Gamer,Mymax,1909.46,1627.49,56
+88,Corsair Pariatur,Teclados Mecânicos,Corsair,262.38,161.32,37
+89,Nintendo eShop Tempora,Gift Cards,Nintendo eShop,1641.85,1125.98,38
+90,HyperX Ad,Acessórios,HyperX,4517.6,3186.79,86
+91,PlayStation Et,Gift Cards,PlayStation,4741.38,3721.42,7
+92,Sony Voluptas,Jogos,Sony,2665.59,1728.0,70
+93,Logitech Similique,Teclados Mecânicos,Logitech,3560.17,3080.88,11
+94,Nintendo Modi,Jogos,Nintendo,3113.38,1994.44,27
+95,Microsoft Sed,Consoles,Microsoft,1179.72,906.33,30
+96,Sony Debitis,Consoles,Sony,2705.0,1675.2,4
+97,SteelSeries Doloremque,Teclados Mecânicos,SteelSeries,2004.78,1195.53,73
+98,Alpha Gamer Exercitationem,Cadeiras Gamer,Alpha Gamer,298.14,262.6,26
+99,Redragon Dolore,Acessórios,Redragon,4039.61,2426.07,71
+100,Logitech Fuga,Headsets,Logitech,3332.36,2499.5,71
