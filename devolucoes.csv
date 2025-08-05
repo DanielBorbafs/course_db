@@ -1,0 +1,27 @@
+ID,PEDIDO_ID,DATA_DEVOLUCAO,MOTIVO_DEVOLUCAO
+1,5,21/11/2024,Produto com defeito
+2,11,05/10/2024,Erro na escolha do produto
+3,20,18/03/2025,Produto chegou atrasado
+4,22,21/07/2024,Insatisfação com a qualidade
+5,24,07/11/2024,Embalagem violada
+6,26,30/07/2024,Produto diferente do anunciado
+7,28,16/06/2025,Produto diferente do anunciado
+8,29,26/11/2024,Cliente desistiu da compra
+9,36,01/03/2024,Erro na escolha do produto
+10,40,12/07/2024,Produto diferente do anunciado
+11,45,02/07/2024,Pedido duplicado
+12,47,25/03/2024,Produto com defeito
+13,59,23/06/2025,Embalagem violada
+14,67,02/03/2024,Cliente desistiu da compra
+15,68,13/11/2024,Erro na escolha do produto
+16,69,19/04/2025,Erro na escolha do produto
+17,75,22/07/2025,Pedido duplicado
+18,77,11/10/2024,Insatisfação com a qualidade
+19,82,01/03/2025,Produto diferente do anunciado
+20,87,23/03/2024,Produto chegou atrasado
+21,88,31/03/2024,Erro na escolha do produto
+22,90,10/06/2025,Erro na escolha do produto
+23,93,30/11/2024,Produto com defeito
+24,94,18/01/2024,Produto diferente do anunciado
+25,96,15/02/2025,Insatisfação com a qualidade
+26,99,08/07/2025,Produto diferente do anunciado
