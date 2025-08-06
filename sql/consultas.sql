@@ -50,3 +50,22 @@ select uf,
  -- QUANTIDADE TOTAL DE DEVOLUCOES
 select count(id) as contagem
   from devolucoes;
+
+  -- DISTRIBUIÇÃO POR STATUS DAS ENTREGAS
+select status_entrega,
+       count(id) as pedido_id
+  from entregas
+ group by status_entrega;
+
+ -- TRAZENDO OS PRODUTOS QUE MAIS GERARAM RECEITA (SEM DESCONTO R$)
+select nome_produto,
+       sum(valor_sem_desconto) as valor_total
+  from (
+   select p.nome_produto,
+          ( i.quantidade * i.preco_unitario ) as valor_sem_desconto
+     from itens_pedido i
+     join produtos p
+   on i.produto_id = p.id
+)
+ group by nome_produto
+ order by valor_total desc;
