@@ -29,7 +29,38 @@ select sexo,
 
 --- [ Comportamento de Acesso dos Clientes ] -----
 
+/* Liste os 5 produtos mais clicados nas campanhas nos últimos 3 meses, 
+e informe quantos cliques cada um recebeu."
+*/
+select p.nome_produto,
+       count(c.produto_id) as qtd_cliques
+  from cliques_campanha c
+ inner join produtos p
+on p.id = c.produto_id
+ where c.data_clique >= sysdate - 90
+ group by p.nome_produto
+ order by qtd_cliques desc
+ fetch first 5 rows only;
+
+
+
 --- [ Vendas Gerais ] -----
+
+/* Total de vendas e o valor total recebido por canal de venda, 
+considerando apenas pedidos finalizados.
+*/
+
+select p.canal_venda,
+       round(
+          sum(i.quantidade *(i.preco_unitario - i.desconto)),
+          2
+       ) as valor_total
+  from pedidos p
+ inner join itens_pedido i
+on i.pedido_id = p.id
+ where p.status_pedido = 'Finalizado'
+ group by p.canal_venda;
+
 
 --- [ Análise de produtos ] -----
 
