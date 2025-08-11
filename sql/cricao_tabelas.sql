@@ -1,3 +1,32 @@
+--- [ Perfil Geral dos Clientes] -----
+
+--- [ Comportamento de Acesso dos Clientes ] -----
+
+--- [ Vendas Gerais ] -----
+
+--- [ Análise de produtos ] -----
+
+--- [ Fornecedores ] -----
+
+--- [ Reposição de estoque ] -----
+
+--- [ Campanha de marketing ] -----
+
+--- [ Análise de pagamentos ] -----
+
+--- [ Entregas ] -----
+
+--- [ Devoluções ] -----
+
+--- [ Suporte ao cliente ] -----
+
+--- [ Análise Cruzada - Clientes e Pedidos ] -----
+
+--- [ Análise Cruzada - Campanhas e Pedidos ] -----
+
+
+
+
 create table clientes (
    id              int primary key,
    nome            varchar2(40),
