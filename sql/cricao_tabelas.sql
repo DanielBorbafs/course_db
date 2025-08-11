@@ -9,34 +9,20 @@ create table clientes (
 );
 
 
-create table log_acesso (
-   log_id       int primary key,
-   cliente_id   int,
-   data_acesso  timestamp,
-   canal_acesso varchar2(30),
-   ip           varchar2(30),
-   localizacao  varchar2(30),
-   constraint fk_cliente foreign key ( cliente_id )
-      references clientes ( id )
-);
-
 create table vendedores (
    id            int primary key,
    nome_vendedor varchar2(40),
-   tipo_loja     varchar2(20),
    uf            char(2),
    data_entrada  date
 );
 
-alter table vendedores drop column tipo_loja
+
 
 create table produtos (
    id            int primary key,
    nome_produto  varchar2(30),
    categoria     varchar2(20),
    marca         varchar2(20),
-   preco         number(10,2),
-   custo         number(10,2),
    estoque_atual int
 );
 
@@ -57,19 +43,6 @@ create table fornecedores (
 );
 
 /*--------------------------- */
-
-create table reposicao_estoque (
-   id             int primary key,
-   produto_id     int,
-   fornecedor_id  int,
-   data_reposicao date,
-   quantidade     int,
-   preco_unitario number(10,2),
-   constraint fk_produto foreign key ( produto_id )
-      references produtos ( id ),
-   constraint fk_fornecedor foreign key ( fornecedor_id )
-      references fornecedores ( id )
-);
 
 
 create table cliques_campanha (
