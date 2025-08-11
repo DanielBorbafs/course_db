@@ -1,4 +1,31 @@
 --- [ Perfil Geral dos Clientes] -----
+/*
+"um relatório com a quantidade total de clientes cadastrados, 
+mostrando também quantos são homens e quantos são mulheres,
+e a média de idade por grupo*/
+
+-- QUANTIDADE TOTAL DE CLIENTES
+select count(id) as qtd_clientes
+  from clientes;
+
+-- QUANTIDADE DE CLIENTES MASCULINOS E FEMININOS
+select sexo,
+       count(id) as qtd_clientes
+  from clientes
+ group by sexo;
+
+-- MÉDIA DE IDADE POR GRUPO
+select sexo,
+       round(
+          avg(trunc(months_between(
+             sysdate,
+             data_nascimento
+          ) / 12)),
+          2
+       ) as media_idade
+  from clientes
+ group by sexo;
+
 
 --- [ Comportamento de Acesso dos Clientes ] -----
 
