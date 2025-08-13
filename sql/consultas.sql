@@ -64,7 +64,41 @@ on i.pedido_id = p.id
 
 --- [ Análise de produtos ] -----
 
+ -- 10 categorias de produtos que mais geraram receita no último ano, junto com o valor total vendido.
+select p.categoria,
+       sum(i.quantidade) as qtd_vendas,
+       sum(i.quantidade *(i.preco_unitario - i.desconto)) as valor_total
+  from produtos p
+  join itens_pedido i
+on i.produto_id = p.id
+  join pedidos x
+on i.pedido_id = x.id
+ where x.data_pedido >= add_months(
+   sysdate,
+   -12
+)
+ group by p.categoria
+ order by valor_total desc
+ fetch first 10 rows only;
+
 --- [ Fornecedores ] -----
+
+
+-- Fornecedores que entregam produtos da categoria SOFTWARE e a data de contrato
+select nome,
+       trim(substr(
+          categoria_produto,
+          1,
+          instr(
+             categoria_produto,
+             '-'
+          ) - 1
+       )) as produtos,
+       data_contrato
+  from fornecedores
+ where categoria_produto like 'Software%'
+ order by data_contrato desc;
+
 
 --- [ Reposição de estoque ] -----
 
